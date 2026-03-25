@@ -102,10 +102,10 @@ function createFloatingButton() {
 	button.id = "leetcode-markdown-btn";
 	button.textContent = "📋 复制Markdown";
 	button.style.position = "fixed";
-	// button.style.bottom = "20px";
-	// button.style.right = "20px";
-	button.style.top = "10px";
-	button.style.left = "320px";
+	button.style.bottom = "20px";
+	button.style.right = "20px";
+	// button.style.top = "10px";
+	// button.style.left = "320px";
 	button.style.zIndex = "9999";
 	button.style.padding = "4px 8px";
 	button.style.border = "none";
