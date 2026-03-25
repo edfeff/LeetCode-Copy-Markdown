@@ -1,0 +1,19 @@
+{
+   "action": {
+      "default_popup": "popup/popup.html"
+   },
+   "content_scripts": [ {
+      "js": [ "lib/turndown.js", "content-scripts/content.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "description": "An extension to convert LeetCode problems to Markdown format.",
+   "icons": {
+      "128": "icons/leetcode.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsXBk4eYRjcyfus+HXJZGWopNZyXqNVnfCLPz43v9GOa0XGWfsTp6tEAUKkE/RmHg+OHkExn1Jx8J/3WL1RH5Eq7SzRfZDROBjkzDLpBaNj6Y8QG99ipUG2qwJvv1K1wikfJ3Vtjdphx3FcE9u/iVAF977JVzSw+ViZP5lBeocUYo+TRSCJjhK2FbiaFYpuQjSqalPlLOMiXyPjr9ejE1USssvvUNBGC7ymFV2fnRo7rqkjcA5eq4/f+5QhF1rT2t3uRlOEIy7CDOei10R7HjQpzzraS6fFXJbwBOKQC4t1PKwGSaxh+pMylPY5X1FaygVngCruH34d6q6D/l7ZEhYwIDAQAB",
+   "manifest_version": 3,
+   "name": "LeetCode-Copy-Markdown",
+   "permissions": [ "activeTab" ],
+   "update_url": "https://edge.microsoft.com/extensionwebstorebase/v1/crx",
+   "version": "0.0.0.1"
+}
