@@ -87,6 +87,11 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
 
 // 创建悬浮按钮
 function createFloatingButton() {
+	// 检查域名是否包含leetcode.cn
+	if (!window.location.hostname.includes("leetcode.cn")) {
+		return;
+	}
+	
 	// 检查按钮是否已存在
 	if (document.getElementById("leetcode-markdown-btn")) {
 		return;
